@@ -2,7 +2,7 @@
 Resolve a promise after some time. Good for async/await.
 
 Uses the [ms module](https://github.com/rauchg/ms.js) for millisecond 
-conversion.
+conversion, if supplied argument is a string.
 
 ```javascript
 
@@ -10,7 +10,8 @@ import psleep from 'psleep'
 
 async function doThings () {
   console.log('hello...')
-  await psleep('10 seconds')
+  await psleep('10 seconds') // waits 10 seconds
+  await psleep(2000) // waits 2 seconds
   console.log('world!')
 }
 
