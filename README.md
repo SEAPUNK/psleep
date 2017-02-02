@@ -1,5 +1,7 @@
 # psleep
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SEAPUNK/psleep.svg)](https://greenkeeper.io/)
+
 # DEAR GOD DON'T USE THIS USE [`delay`](https://github.com/sindresorhus/delay) WITH [`ms`](https://github.com/zeit/ms) INSTEAD
 
 Resolve a promise after some time. Good for async/await.
